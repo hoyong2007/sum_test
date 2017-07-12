@@ -3,9 +3,7 @@
 
 int sum(int n)
 {
-	int res = 0;
-	for ( ; n>=1; --n)
-		res+=n;
+	int res = (n+1)*n/2;
 	return res; 
 }
 
